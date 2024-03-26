@@ -8,5 +8,6 @@ public class JavaApplication5 {
    public static void main(String[] args)
    {
    System.out.println("md eshan \n munshi \n dhaka");
+   System.out.printin("2 \t 4");
    }
 }
