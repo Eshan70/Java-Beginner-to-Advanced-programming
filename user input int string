@@ -1,0 +1,22 @@
+package userinput;
+import java.util.Scanner;
+
+
+public class Userinput {
+
+   public static void main (String[]args) {
+       
+       int n;
+       String s;
+        Scanner input = new Scanner(System.in);
+        System.out.print("enter the input:");
+       n =input.nextInt();
+       Scanner input1 = new Scanner(System.in);
+       System.out.print("enter the string:");
+       s = input1.nextLine();
+       System.out.println("the number is:"+n);
+       System.out.println("the string is:"+s);
+       
+   }
+    
+}
