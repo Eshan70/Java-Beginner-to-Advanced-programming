@@ -1,0 +1,23 @@
+
+package oop;
+
+
+class teacher {
+    String name,gender;    //this is class name teacher
+    int number;
+    
+}
+public class main {
+    public static void main(String[] args) {
+    
+    teacher ob = new teacher();  //this is object of teacher class
+    ob.name="eshan munshi";
+    ob.gender="male";
+    ob.number = 1862966705;
+    
+    System.out.println("the teacher name is :"+ob.name);
+     System.out.println("the teacher gender is :"+ob.gender);
+      System.out.println("the teacher phone number is :"+ob.number);
+}
+    
+}
