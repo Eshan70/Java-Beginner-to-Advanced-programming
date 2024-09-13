@@ -1,0 +1,41 @@
+
+
+package method_in_class;
+
+class car {
+    String color;
+    int cNumber;
+    String owner;
+    
+    void display() {
+        System.out.println("color:"+color);
+         System.out.println("number:"+cNumber);
+         System.out.println("owner::"+owner);
+
+    }
+}
+
+class person {
+    String name;
+    int year;
+    String gender;
+    
+    void display1() {
+        System.out.println("name:"+name);
+         System.out.println("year:"+year);
+         System.out.println("gender:"+gender);
+    }
+    
+}
+
+public class Method_in_class{
+    
+    public static void main(String[]arg) {
+        car ob=new car();
+        ob.display();
+        
+        person ob1 = new person();
+        ob1.display1();
+        
+    }
+}
