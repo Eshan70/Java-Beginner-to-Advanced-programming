@@ -1,0 +1,34 @@
+//package paramitermethod;
+
+
+class person {
+    String name;
+    String gender;
+    int year;
+    
+    void setinformation(String n,String g,int y) {
+        name=n;
+        gender=g;
+        year=y;
+        
+    }
+    
+    void display() {
+        System.out.println(name);
+        System.out.println(gender);
+        System.out.println(year);
+    }
+}
+
+
+public class ParamiterMethod {
+
+   public static void main(String[]args) {
+       
+       person ob = new person();
+       ob.setinformation("eshan" , "male" , 22);
+       ob.display();
+       
+   }
+    
+}
