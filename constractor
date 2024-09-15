@@ -1,0 +1,33 @@
+
+package constractor_in_mathod;
+
+class person {
+    String name;
+    String gender;
+    int year;
+    
+    person (String n, String g, int y) {//constractor
+        
+        name=n;
+        gender=g;
+        year=y;
+    }
+    
+    void display()
+    {
+        System.out.println("name is:"+name);
+        System.out.println("name is:"+gender);
+        System.out.println("name is:"+year);
+
+    }
+}
+
+
+public class Constractor_in_mathod {
+
+    public static void main(String []args) {
+    person ob = new person("eshan", "male", 22);
+    ob.display();
+    
+}
+}
