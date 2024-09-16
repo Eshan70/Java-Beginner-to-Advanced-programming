@@ -1,0 +1,31 @@
+
+package default_constractor;
+
+
+
+class person {
+    String name,gander;
+    int year;
+    
+    person () {
+        System.out.println("no inforfation"); //this is default constructor
+    }
+    
+    void display() {
+        System.out.println("name"+name);
+        System.out.println("gander"+gander);
+        System.out.println("yar"+year);
+
+    }
+}
+
+public class Default_Constractor {
+
+    public static void main(String[] args) {
+        
+        person ob = new person();
+        ob.display();
+       
+    }
+    
+}
