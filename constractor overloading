@@ -1,0 +1,44 @@
+
+package default_constractor;
+
+
+
+class person {
+    String name,gander;
+    int year;
+    
+    person () {
+        System.out.println("no inforfation"); //this is default constructor
+    }
+    person (String n) {
+        name=n;
+    }
+    person(String g,int y) {
+        gander=g;
+        year=y;
+    }
+    
+    void display() {
+        System.out.println("name"+name);
+        System.out.println("gander"+gander);
+        System.out.println("yar"+year);
+
+    }
+}
+
+public class Default_Constractor {
+
+    public static void main(String[] args) {
+        
+        person ob = new person();
+        ob.display();
+        
+        person ob1=new person("eshan");
+        ob1.display();
+        
+        person ob2=new person("male",21);
+        ob2.display();
+       
+    }
+    
+}
