@@ -1,0 +1,34 @@
+
+package default_constractor;
+
+
+
+class person {
+    String name,gander;
+    static String university="BUBT";
+    
+   person (String n,String g) {
+       name=n;
+       gander=g;
+   }
+    
+    void display() {
+        System.out.println("name:"+name);
+        System.out.println("gander:"+gander);
+        System.out.println("university:"+university);
+
+    }
+}
+
+public class Default_Constractor {
+
+    public static void main(String[] args) {
+        
+        person ob = new person("eshan","male");
+        ob.display();
+        
+        
+       
+    }
+    
+}
